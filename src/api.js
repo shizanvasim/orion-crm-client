@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://orion-crm-server.onrender.com/api/v1';
+axios.defaults.baseURL = 'http://localhost:8080/api/v1';
 
 export const fetchClients = async () => {
   try {
